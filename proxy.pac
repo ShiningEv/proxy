@@ -143,5 +143,5 @@ function FindProxyForURL(url, host) {
  if ( isInNet(resolved_host, "127.0.0.0","255.0.0.0") ) { return "DIRECT"; }
  if ( isInNet(resolved_host, "10.0.0.0","255.0.0.0") ) { return "DIRECT"; }
 }
- return proxy1;
+ return proxy;
 }
